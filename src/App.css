@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+
+
+#user-box {
+  border: 1px solid #000;
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

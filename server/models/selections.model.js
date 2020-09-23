@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const selectionSchema = mongoose.Schema({
-    user_adj: [], 
+    user_descriptor: [], 
     user_noun: []
 });
 
