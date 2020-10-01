@@ -57,7 +57,7 @@
         });
         }
         else {
-
+ 
             console.log('❌ - User Already Exists.');
             console.log('🔰 - Attempting to UPDATE User.')
             console.log(req.body.ip)

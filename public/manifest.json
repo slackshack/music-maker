@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Leave a Note",
+  "name": "Leave a Note",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "Ampeross-Qetto-2-Music.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },

@@ -257,6 +257,7 @@ changeUserNoun () {
     return <div />
   };
 
+  console.log('🟢🟢🟢 WE ARE GO TO RENDER! 🟢🟢🟢')
 
 //selected={(this.state.user_descriptor.indexOf(i) === this.state.can[1]) ? 'selected' : null}
   const adjOutput = this.state.user_descriptor.map(i => <option value={this.state.user_descriptor.indexOf(i)}  key={i[1]}>{i[0]} {i[1]}</option>);
@@ -327,7 +328,7 @@ changeUserNoun () {
 
 
 {/*}<p>{this.state.user_descriptor}</p>
-<p>{this.state.user_noun}</p>{*/}
+<p>{this.state.user_noun}</p>
 
 <p>x</p>
     <form>
@@ -338,7 +339,7 @@ changeUserNoun () {
       <select name="track_noun" id="track_noun">{nounOutput}</select>
       <label htmlFor="trackColorPicker">Track Color:</label>
       <input type="color" name="trackColorPicker" id="trackColorPicker"></input>
-    </form>
+    </form>{*/}
     </div>
   );
 }
