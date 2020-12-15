@@ -1,5 +1,8 @@
+
 .App {
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -28,11 +31,77 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#floating-emojii {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 300%;
 }
+
+#floating-emojii-edit {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  font-size: 150%;
+  opacity: 0.8;
+}
+
+
+.edit-X {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 150%;
+  padding: 10px;
+}
+
+.edit-X:hover {
+  cursor: pointer;
+}
+
+#user-box {
+  border: 5px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 2em;
+  box-shadow: 3px 3px 2px grey;
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: inset 0px 0px 0px 1px #000;
+  }
+
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+#edit-user {
+  border: 3px solid #000;
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 2em;
+  box-shadow: 3px 3px 7px grey;
+  background-color: #f9f9f9;
+}
+
+
+  @media only screen and (max-width: 800px) {
+    #floating-emojii {
+      position: relative;
+      top: 0px;
+      right: 0px;
+    }
+    #floating-emojii-edit {
+      position: relative;
+      top: 0px;
+      right: 0px;
+      font-size: 200%;
+      padding: 5px;
+    }
+  }
